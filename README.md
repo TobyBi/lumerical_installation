@@ -1,14 +1,16 @@
 # Installing Lumerical at MPL
 
-## Tested on Windows 10, 2021/02/15
+### Requirements ###
+
+2021/02/15 - Tested on Windows 10 and Lumerical 2020a.
+
+Before beginning, either download or clone **Microsoft MPI.7z** and **msmpi.dll** from this repository. Unzip the **Microsfot MPI** folder. Do not change any of the filenames for the downlaod files.
+
+### Background ###
 
 Email IT with a request to install Lumerical. When the installation is complete, Lumerical will open, however, an error is thrown anytime a simulaton is started.
 
 The reason for this error is that Microsoft MPI (Message Passing Interface) along with the DLL (dynamic link library) is missing. Installing directly from the Microsoft installer or Github does not work so instead we install Microsoft MPI and the DLL manually.
-
-### Requirements ###
-
-Before beginning, either download or clone **Microsoft MPI.7z** and **msmpi.dll** from this repository. Unzip the **Microsfot MPI** folder. Do not change any of the filenames for the downlaod files.
 
 ### Procedure ###
 
